@@ -1,12 +1,12 @@
 import Foundation
 
 public struct Todo: Codable {
-    let id: String
-    let title: String
-    let createdOn: Date
-    let updatedOn: Date
-    let status: TodoStatus
-    let priority: Priority
-    let details: String?
-    let dueDate: Date?
+    public var id: UUID?
+    public let title: String
+    public let createdOn: Date
+    public let updatedOn: Date
+    public let status: TodoStatus
+    public let priority: Priority
+    public let details: String?
+    public let dueDate: Date?
 }
