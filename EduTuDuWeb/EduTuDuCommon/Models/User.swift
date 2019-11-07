@@ -1,6 +1,6 @@
 import Foundation
 
 public struct User: Codable {
-    let id: String
+    public var id: UUID?
     let name: String
 }
