@@ -1,0 +1,4 @@
+module CNIOOpenSSL {
+    umbrella "/Users/don/Documents/Projects/edutudu/EduTuDuWeb/.build/checkouts/swift-nio-ssl/Sources/CNIOOpenSSL/include"
+    export *
+}
